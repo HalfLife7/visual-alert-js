@@ -1,15 +1,24 @@
 {
-  "name": "visual-alert-js-package",
-  "version": "1.0.1",
-  "description": "",
+  "name": "visual-alert-js",
+  "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "HalfLife7",
   "license": "ISC",
   "dependencies": {
     "react": "^18.2.0",
     "react-use-websocket": "^4.7.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HalfLife7/visual-alert-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HalfLife7/visual-alert-js/issues"
+  },
+  "homepage": "https://github.com/HalfLife7/visual-alert-js#readme",
+  "description": ""
 }
