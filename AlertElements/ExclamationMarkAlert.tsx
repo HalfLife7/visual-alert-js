@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const ExclamationMarkAlert: React.FC = ({xPosition, yPosition}) => {
+const ExclamationMarkAlert: React.FC = ({xPosition, yPosition, className}) => {
     const [animating, setAnimating] = useState(false)
 
     useEffect(() => {
@@ -18,7 +18,8 @@ const ExclamationMarkAlert: React.FC = ({xPosition, yPosition}) => {
 
     return (
         <div
-            style={{top: yPosition, left: xPosition, display: animating ? 'block' : 'none'}}
+            className={className}
+            style={{position: 'absolute', top: yPosition, left: xPosition, display: animating ? 'block' : 'none'}}
         >
             !
         </div>
